@@ -25,7 +25,7 @@ We leverage the power of Markdown and Shell Scripts to eliminate the two biggest
 ## Key Features
 
 - 🚀 **Zero-Overhead Scaffolding:** Initialize new projects in seconds with one-click `.bat` or `.sh` scripts.
-- 🤝 **Multi-Agent Handoff:** Standardized protocol (`STATE.md`) for seamless coordination between IDE Agents (Cursor, Windsurf) and CLI Agents (Claude Code, Aider).
+- 🤝 **Multi-Agent Handoff:** Standardized protocol (`STATE.md`) for seamless coordination between IDE Agents (Cursor, VS Code, Windsurf, Antigravity) and CLI Agents (Claude Code, Aider).
 - 🧠 **Global Knowledge Persistence:** A centralized `global-hub` ensures your coding style, preferences, and long-term insights follow you across every project.
 - 📖 **Human-Readable State:** No databases, no binary files. Your entire AI memory is plain-text Markdown — fully auditable and version-control friendly.
 - 🛡️ **Privacy First:** 100% local-first architecture. Your project context never leaves your machine unless you push it.

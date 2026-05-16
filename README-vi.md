@@ -25,7 +25,7 @@ Chúng tôi sử dụng sức mạnh của Markdown và Shell Script để xóa 
 ## Tính năng cốt lõi
 
 - 🚀 **Khởi tạo Scaffold siêu tốc:** Khởi động dự án mới chỉ trong vài giây với các script `.bat` hoặc `.sh` một cú click.
-- 🤝 **Bàn giao đa Agent:** Giao thức chuẩn hóa (`STATE.md`) giúp phối hợp mượt mà giữa IDE Agent (Cursor, Windsurf) và CLI Agent (Claude Code, Aider).
+- 🤝 **Bàn giao đa Agent:** Giao thức chuẩn hóa (`STATE.md`) giúp phối hợp mượt mà giữa IDE Agent (Cursor, VS Code, Windsurf, Antigravity) và CLI Agent (Claude Code, Aider).
 - 🧠 **Trí nhớ toàn cục bền vững:** Trung tâm `global-hub` đảm bảo phong cách code, sở thích và kinh nghiệm tích lũy sẽ đi theo bạn qua mọi dự án.
 - 📖 **Trạng thái minh bạch:** Không database, không file nhị phân. Toàn bộ bộ nhớ AI là Markdown văn bản thuần — dễ dàng kiểm soát và quản lý bằng Git.
 - 🛡️ **Quyền riêng tư tuyệt đối:** Kiến trúc 100% local-first. Ngữ cảnh dự án không bao giờ rời khỏi máy của bạn trừ khi bạn chủ động push.
