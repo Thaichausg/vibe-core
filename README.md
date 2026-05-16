@@ -96,6 +96,20 @@ Open `.planning/STATE.md`. This file is your shared task board.
 
 ---
 
+## 🛠️ Vibe CLI (Advanced)
+
+`vibe-core` now includes a command-line tool to make your workflow even smoother.
+
+### Installation
+1. Navigate to the CLI directory: `cd vibe-cli`
+2. Install globally: `npm install -g .` (You can now use the `vibe` command anywhere!)
+
+### Commands
+- **`vibe init`**: Automatically injects the scaffold into your current project folder. No more manual copying.
+- **`vibe compress`**: When your `STATE.md` gets too long, run this to summarize old handoff notes and save AI tokens.
+
+---
+
 ## Limitations
 
 - **Requires discipline.** If you don't update `STATE.md`, agents lose context. The system is only as good as the logs you write.

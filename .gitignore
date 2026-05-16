@@ -18,3 +18,7 @@ global-hub/PROJECT_SNAPSHOTS.md
 # Temp files
 *.tmp
 *.bak
+
+# Node
+node_modules/
+vibe-cli/node_modules/

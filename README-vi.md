@@ -96,6 +96,20 @@ Mở `.planning/STATE.md`. File này là bảng công việc chung.
 
 ---
 
+## 🛠️ Vibe CLI (Nâng cao)
+
+`vibe-core` hiện đã tích hợp công cụ dòng lệnh để giúp quy trình của bạn mượt mà hơn nữa.
+
+### Cài đặt
+1. Truy cập thư mục CLI: `cd vibe-cli`
+2. Cài đặt toàn cục: `npm install -g .` (Bây giờ bạn có thể dùng lệnh `vibe` ở bất cứ đâu!)
+
+### Các lệnh hỗ trợ
+- **`vibe init`**: Tự động bơm bộ khung (scaffold) vào thư mục dự án hiện tại. Không cần copy thủ công.
+- **`vibe compress`**: Khi file `STATE.md` quá dài, hãy chạy lệnh này để tóm tắt các ghi chú cũ và tiết kiệm Token cho AI.
+
+---
+
 ## Giới hạn
 
 - **Cần kỷ luật.** Nếu bạn không cập nhật `STATE.md`, các Agent sẽ mất ngữ cảnh. Hệ thống tốt hay không tùy thuộc vào chất lượng log bạn ghi.
