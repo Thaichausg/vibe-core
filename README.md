@@ -11,14 +11,14 @@
 
 ## What is this?
 
-Vibe-Core is a **directory-based workflow convention** — not a framework, not a library, not a server.
+Vibe-Core is not a bloated framework or a complex server. It is a **minimalist context management philosophy** built on directory structures, designed to help you master AI workflows naturally.
 
-It uses plain Markdown files and shell scripts to solve two common frustrations in daily AI coding:
+We leverage the power of Markdown and Shell Scripts to eliminate the two biggest friction points in the AI Coding era:
 
-1. **Context loss between sessions** — AI forgets what you were doing after you close the tab.
-2. **Agent coordination** — Multiple AI tools (IDE + Terminal) stepping on each other with no shared state.
+1. **"Context Amnesia":** No more starting from scratch because your AI forgot everything after a tab closure or a new session.
+2. **Agent Friction:** Establish a "shared language" (shared state) so different AI tools (like Cursor and Claude Code) can understand and pick up where the other left off.
 
-> **Who is this for?** Individual developers and small teams who use 1–2 AI coding tools simultaneously (e.g., Cursor + Claude Code) and want a simple, auditable way to manage shared context — without setting up a server or writing orchestration code.
+> **Who is this for?** Developers who want to focus on creation instead of configuration. Those using multiple AI tools simultaneously who crave a smooth, transparent, and 100% private handoff process.
 
 ---
 

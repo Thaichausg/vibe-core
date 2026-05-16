@@ -11,14 +11,14 @@
 
 ## Đây là gì?
 
-Vibe-Core là một **quy ước làm việc dựa trên thư mục** — không phải framework, không phải thư viện, không phải server.
+Vibe-Core không phải là một framework phức tạp, cũng không phải một server nặng nề. Đây là một **triết lý quản lý ngữ cảnh tối giản** dựa trên cấu trúc file, giúp bạn làm chủ quy trình làm việc với AI một cách tự nhiên nhất.
 
-Nó dùng file Markdown thuần và shell script để giải quyết hai vấn đề phổ biến khi code hàng ngày với AI:
+Chúng tôi sử dụng sức mạnh của Markdown và Shell Script để xóa bỏ hai rào cản lớn nhất trong kỷ nguyên AI Coding:
 
-1. **Mất ngữ cảnh giữa các phiên làm việc** — AI quên hết khi bạn đóng tab.
-2. **Phối hợp giữa nhiều Agent** — Nhiều công cụ AI (IDE + Terminal) làm việc cùng lúc mà không có trạng thái chung.
+1. **"Chứng mất trí nhớ" của AI:** Chấm dứt tình trạng AI quên sạch mọi thứ ngay khi bạn đóng Tab hoặc bắt đầu phiên làm việc mới.
+2. **Sự xung đột giữa các Agent:** Tạo ra một "ngôn ngữ chung" (shared state) để các công cụ AI khác nhau (như Cursor và Claude Code) có thể hiểu và tiếp nối công việc của nhau mà không bị dẫm chân lên nhau.
 
-> **Dành cho ai?** Lập trình viên cá nhân và team nhỏ dùng 1–2 công cụ AI đồng thời (ví dụ: Cursor + Claude Code) và muốn một cách đơn giản, minh bạch để quản lý ngữ cảnh chung — mà không cần setup server hay viết code điều phối.
+> **Dành cho ai?** Những lập trình viên muốn tập trung vào sáng tạo thay vì cấu hình. Những ai đang sử dụng song song nhiều công cụ AI và khao khát một quy trình bàn giao (handoff) mượt mà, minh bạch và hoàn toàn riêng tư.
 
 ---
 
