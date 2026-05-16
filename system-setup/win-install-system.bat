@@ -32,7 +32,7 @@ echo.
 echo IMPORTANT NOTE:
 echo The environment variable %%VIBE_HUB%% has been created. 
 echo To make your IDE and Terminal recognize this variable, you MUST:
-echo 1. CLOSE ALL open windows of VS Code / Cursor / Terminal.
+echo 1. CLOSE ALL open windows of VS Code / Cursor / Antigravity / Terminal.
 echo 2. Reopen them.
 echo ========================================================
 pause
