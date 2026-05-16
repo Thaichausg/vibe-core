@@ -1,21 +1,50 @@
-# Claude Code Collaboration Guide
+# AI Collaboration Guide
 
-Bạn (**CC** - Claude Code) đang làm việc cùng với **Antigravity (AG)** trong dự án này. 
-Để đảm bảo không bị lặp việc và phối hợp mượt mà, bạn BẮT BUỘC phải tuân thủ các quy tắc sau:
+> **Read this first.** This file tells you (the AI) how to work within the Vibe-Core memory system.
 
-## 1. Vai trò (Roles)
-- **Antigravity (AG)**: Chủ trì Thiết kế UI/UX & Kiến trúc. (Dự phòng: Xử lý Logic & Backend khi CC hết quota).
-- **CC (Bạn)**: Chủ trì Logic phức tạp & Backend/API. (Dự phòng: Xử lý UI/CSS theo style của AG khi AG hết quota).
-- **Nguyên tắc vàng**: "Ai cũng có thể làm việc của ai". Nếu đối tác hết quota, bạn phải sẵn sàng gánh vác phần việc còn lại để dự án không dừng lại.
+---
 
-## 2. Quy trình làm việc (The Workflow)
-Mỗi khi bạn được User gọi (ví dụ: "cc làm tiếp phần code đi"), bạn phải thực hiện ĐÚNG trình tự sau:
-1. ĐỌC file `.planning/STATE.md` để biết AG vừa làm gì và yêu cầu bạn làm gì tiếp theo.
-2. ĐỌC mã nguồn UI/HTML mà AG vừa tạo ra để hiểu cấu trúc DOM/Design.
-3. CODE phần logic/chức năng được yêu cầu mà **không tự ý thay đổi thiết kế giao diện (UI)** nếu không cần thiết.
-4. Sau khi xong việc, CẬP NHẬT file `.planning/STATE.md` (chuyển trạng thái sang cho AG hoặc đánh dấu hoàn thành) để AG biết bạn đã làm gì.
+## 1. Your Role
 
-## 3. Quy tắc cấm (Strict Rules)
-- **KHÔNG ĐƯỢC** tự ý xóa file thiết kế của AG.
-- **KHÔNG ĐƯỢC** đoán mò yêu cầu. Nếu `.planning/STATE.md` không rõ ràng, hãy hỏi lại User.
-- **LUÔN LUÔN** ghi log tóm tắt việc bạn vừa làm vào `.planning/STATE.md`.
+This project uses a multi-agent workflow. There may be multiple AI tools working on this codebase (e.g., an IDE agent like Cursor, and a CLI agent like Claude Code or Aider).
+
+**Default role split:**
+- **[Agent 1] — IDE Agent** (e.g., Cursor, Windsurf): Leads UI/UX design, component structure, and architecture decisions.
+- **[Agent 2] — CLI Agent** (e.g., Claude Code, Aider): Leads backend logic, API integration, and complex data processing.
+
+**Golden rule:** Either agent can cover the other's role if needed. If your partner runs out of quota, take over their tasks without waiting.
+
+> You are free to rename Agent 1 / Agent 2 to match the actual tools being used in this project.
+
+---
+
+## 2. Startup Sequence (Do this every time)
+
+When the user activates you, follow this order:
+
+1. **Read** `.planning/STATE.md` — understand what was done last and what you need to do next.
+2. **Read** the relevant source files mentioned in STATE.md — don't assume, read the actual code.
+3. **Do the work** — complete the assigned task without making unnecessary changes outside your scope.
+4. **Update** `.planning/STATE.md` before stopping — log what you did and what the next agent should do.
+
+---
+
+## 3. Strict Rules
+
+- **Never** delete or overwrite another agent's work without being explicitly asked.
+- **Never** guess at requirements. If `STATE.md` is unclear, ask the user.
+- **Always** update `STATE.md` before ending your turn. A blank handoff note breaks the workflow.
+- **Always** link to the global memory hub at: `$VIBE_HUB` (or the path set in your environment).
+
+---
+
+## 4. Global Memory
+
+This project connects to a shared knowledge hub. Before starting, check if there are relevant preferences or past decisions stored at:
+
+```
+$VIBE_HUB/GLOBAL_PREFERENCES.md
+$VIBE_HUB/SESSION_LOGS/
+```
+
+Apply any relevant global preferences to your work in this project.

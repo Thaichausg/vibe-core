@@ -1,25 +1,21 @@
-# AI KNOWLEDGE HUB — THE SECOND BRAIN
+# 🧠 AI KNOWLEDGE HUB — THE SECOND BRAIN
 
-> File này là trung tâm điều khiển trí nhớ của AI. Khi bắt đầu một phiên làm việc mới, AI **BẮT BUỘC** phải đọc file này trước để nắm bắt toàn bộ ngữ cảnh mà không cần lịch sử chat.
+> This file is the central control hub for the AI's memory. At the start of a new session, the AI **MUST** read this file first to grasp the entire global context.
 
 ## 1. Quick Access
-- **Quy tắc chung:** [GLOBAL_PREFERENCES.md](./GLOBAL_PREFERENCES.md)
-- **Tiêu chuẩn thiết kế:** [KNOWLEDGE_BASE/UI_UX_STANDARDS.md](./KNOWLEDGE_BASE/UI_UX_STANDARDS.md)
-- **Trạng thái dự án:** [PROJECT_SNAPSHOTS.md](./PROJECT_SNAPSHOTS.md)
-- **Nhật ký gần nhất:** [SESSION_LOGS/latest.md](./SESSION_LOGS/latest.md)
+- **Global Rules:** [GLOBAL_PREFERENCES.md](./GLOBAL_PREFERENCES.md)
+- **Project States:** [PROJECT_SNAPSHOTS.md](./PROJECT_SNAPSHOTS.md)
+- **Latest Logs:** [SESSION_LOGS/latest.md](./SESSION_LOGS/latest.md)
 
-## 2. Bản đồ Trí nhớ (Memory Map)
-| Thư mục | Nội dung | Khi nào AI cần đọc |
+## 2. Memory Map
+| Directory | Content | When AI should read it |
 |---|---|---|
-| `KNOWLEDGE_BASE/` | Kiến thức kỹ thuật, snippet, thư viện | Khi làm task chuyên môn |
-| `WORKFLOWS/` | Quy trình setup, deploy, debug | Khi thực hiện các thao tác hệ thống |
-| `SESSION_LOGS/` | Nhật ký làm việc theo ngày/phiên | Khi mở lại phiên làm việc sau khi tắt |
-| `DECISIONS/` | Các quyết định kiến trúc đã thống nhất | Khi có tranh chấp hoặc cần thay đổi lớn |
+| `KNOWLEDGE_BASE/` | Tech stacks, snippets, libraries | When doing specific technical tasks |
+| `WORKFLOWS/` | Setup, deploy, debug procedures | When performing system operations |
+| `SESSION_LOGS/` | Daily/Session work logs | When resuming a session |
+| `DECISIONS/` | Architectural decisions | During disputes or major changes |
 
-## 3. Cách AI cập nhật Trí nhớ
-- Sau mỗi phiên làm việc quan trọng, AI phải tóm tắt vào `SESSION_LOGS/`.
-- Nếu có quy tắc mới từ người dùng, cập nhật ngay vào `GLOBAL_PREFERENCES.md`.
-- Nếu có quyết định về công nghệ, cập nhật `KNOWLEDGE_BASE/TECH_STACKS.md`.
-
----
-*Created by Antigravity AI Assistant.*
+## 3. How AI Updates Memory
+- After every major session, the AI must summarize it into `SESSION_LOGS/`.
+- If there is a new rule from the User, update `GLOBAL_PREFERENCES.md` immediately.
+- If a tech decision is made, update the `KNOWLEDGE_BASE/`.
