@@ -11,6 +11,9 @@ desktop.ini
 
 # Logs
 *.log
+global-hub/SESSION_LOGS/
+global-hub/PROJECT_SNAPSHOTS.md
+!global-hub/SESSION_LOGS/.gitkeep
 
 # Temp files
 *.tmp

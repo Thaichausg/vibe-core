@@ -25,10 +25,8 @@ echo "export VIBE_HUB=\"$HUB_PATH\"" >> "$RC_FILE"
 echo "Saved \$VIBE_HUB to $RC_FILE"
 echo "OK!"
 
-echo "[2/2] Initializing Git to protect your data..."
-git init
-git add .
-git commit -m "Init Vibe Hub Architecture on Mac/Linux"
+echo "[2/2] Verifying installation..."
+git --version
 echo "OK!"
 
 echo ""

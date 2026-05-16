@@ -17,12 +17,9 @@ echo [1/2] Setting up %%VIBE_HUB%% environment variable...
 setx VIBE_HUB "%VIBE_ROOT_FULL%\global-hub"
 echo OK!
 
-:: 2. Initialize Git
-echo [2/2] Initializing Git to protect your data...
-cd /d "%VIBE_ROOT_FULL%"
-git init
-git add .
-git commit -m "Init Vibe Hub Future-Proof Architecture"
+:: 2. System Check (Optional)
+echo [2/2] Verifying installation...
+git --version
 echo OK!
 
 echo.
