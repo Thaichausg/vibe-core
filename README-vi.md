@@ -22,6 +22,17 @@ Nó dùng file Markdown thuần và shell script để giải quyết hai vấn 
 
 ---
 
+## Tính năng cốt lõi
+
+- 🚀 **Khởi tạo Scaffold siêu tốc:** Khởi động dự án mới chỉ trong vài giây với các script `.bat` hoặc `.sh` một cú click.
+- 🤝 **Bàn giao đa Agent:** Giao thức chuẩn hóa (`STATE.md`) giúp phối hợp mượt mà giữa IDE Agent (Cursor, Windsurf) và CLI Agent (Claude Code, Aider).
+- 🧠 **Trí nhớ toàn cục bền vững:** Trung tâm `global-hub` đảm bảo phong cách code, sở thích và kinh nghiệm tích lũy sẽ đi theo bạn qua mọi dự án.
+- 📖 **Trạng thái minh bạch:** Không database, không file nhị phân. Toàn bộ bộ nhớ AI là Markdown văn bản thuần — dễ dàng kiểm soát và quản lý bằng Git.
+- 🛡️ **Quyền riêng tư tuyệt đối:** Kiến trúc 100% local-first. Ngữ cảnh dự án không bao giờ rời khỏi máy của bạn trừ khi bạn chủ động push.
+- 🌐 **Hỗ trợ quốc tế:** Tài liệu sẵn có bằng Tiếng Anh, Tiếng Việt và Tiếng Trung.
+
+---
+
 ## Cách hoạt động
 
 Ý tưởng cốt lõi: **hệ thống thư mục của bạn chính là bộ nhớ chung.**

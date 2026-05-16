@@ -22,6 +22,17 @@ It uses plain Markdown files and shell scripts to solve two common frustrations 
 
 ---
 
+## Key Features
+
+- 🚀 **Zero-Overhead Scaffolding:** Initialize new projects in seconds with one-click `.bat` or `.sh` scripts.
+- 🤝 **Multi-Agent Handoff:** Standardized protocol (`STATE.md`) for seamless coordination between IDE Agents (Cursor, Windsurf) and CLI Agents (Claude Code, Aider).
+- 🧠 **Global Knowledge Persistence:** A centralized `global-hub` ensures your coding style, preferences, and long-term insights follow you across every project.
+- 📖 **Human-Readable State:** No databases, no binary files. Your entire AI memory is plain-text Markdown — fully auditable and version-control friendly.
+- 🛡️ **Privacy First:** 100% local-first architecture. Your project context never leaves your machine unless you push it.
+- 🌐 **International Ready:** Built-in support for English, Vietnamese, and Chinese documentation.
+
+---
+
 ## How it works
 
 The core idea: **your file system is the shared memory.**
