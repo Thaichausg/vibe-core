@@ -74,7 +74,7 @@ vibe-core/
 
 **Mac/Linux：** 运行 `sh system-setup/mac-install-system.sh`
 
-这将设置指向 `global-hub/` 的 `$VIBE_HUB` 环境变量，并初始化本地 Git 仓库以对记忆进行版本控制。
+这将设置指向 `global-hub/` 的 `$VIBE_HUB` 环境变量，以便你的 AI 智能体可以跨项目访问持久记忆。
 
 ### 第二步：初始化新项目
 

@@ -74,7 +74,7 @@ When you start a new project, the init script copies the scaffold into your proj
 
 **Mac/Linux:** Run `sh system-setup/mac-install-system.sh`
 
-This sets up the `$VIBE_HUB` environment variable pointing to `global-hub/` and initializes a local Git repo to version-control your memory.
+This sets up the `$VIBE_HUB` environment variable pointing to `global-hub/` so your AI agents can access persistent memory across all projects.
 
 ### Step 2: Start a new project
 

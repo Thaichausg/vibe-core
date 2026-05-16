@@ -74,7 +74,7 @@ Khi bạn bắt đầu một dự án mới, script khởi tạo sẽ copy scaff
 
 **Mac/Linux:** Chạy `sh system-setup/mac-install-system.sh`
 
-Lệnh này sẽ thiết lập biến môi trường `$VIBE_HUB` trỏ vào `global-hub/` và khởi tạo Git repo để quản lý phiên bản bộ nhớ.
+Lệnh này sẽ thiết lập biến môi trường `$VIBE_HUB` trỏ vào `global-hub/` để các AI Agent có thể truy cập bộ nhớ bền vững xuyên suốt các dự án.
 
 ### Bước 2: Khởi tạo dự án mới
 
